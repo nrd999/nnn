@@ -1,101 +1,177 @@
-// 1) Haytarareq popoxakan ev veragreq 0: 6 angam tpeq popoxakan@ aynpes vor tpi 0, 1 ev 2 tvern hetevyal hertakanutyamb
-// 0
-// 2
-// 1
-// 1
-// 2
-// 0
-// ogtagorceq increment decrement
+// 1) Haytarareq popoxakan ev veragreq '123javascript';
+// tvyal popoxakanic staceq meji tiv@
+// aynuhetev tpeq tvyal tvi tvanshanneri gumary;
+// ---ANSWER IS---
+// let x = '123javascript';
+// let num = parseInt(x);
+// let stringNum = num.toString(); '123'
+// let result = +stringNum[0] + +stringNum[1] + +stringNum[2];
+// console.log(result);
 
-// Answer 1)
-// let y = 0
-// console.log(y++)
-// console.log(++y)
-// console.log(--y)
-// console.log(y++)
-// console.log(y--)
-// console.log(--y)
+//  2) Haytarareq 2 eranish tvov popoxakan;
+//  veraceq string type-i ev gumareq irar;
+//  vercreq stacvac arjeqi naxaverjin elemnet@;
+//  bazmapatkeq js-i koxmic generacvox tvov
+//  tpeq stacvac arjeq@ kotorakayin tesqov aynpes vor ketic heto lini 2 tiv orinak 2.22
 
-// 2) Greq nuyn code@ switch case-i mijocov
-// let x = 5;
-// if (x > 7) {
-//     console.log('big')
-// } else if (x >= 5) {
-//     console.log('equal')
+// --ANSWER IS:---
+// let num = 132;
+// let num2 = 456;
+// let sum = num.toString() + num2.toString();
+// let preLastElem = sum[sum.length - 2];
+// console.log(preLastElem);
+// let result = preLastElem * Math.random();
+// console.log(result.toFixed(2));
+
+// let num1 = 156;
+// let num2 = 248;
+// let amount = ((num1.toString() + num2.toString()).length - 2) * Math.random();
+// console.log(+amount.toFixed(2));
+
+// 3) Inch kartatpi ev inchu
+    // let a = 5;
+    // let b = String(a); // "5"
+    // let c = Boolean(b); // true
+    // let d = c.toString(); // "true"
+    // d += d; // "truetrue"
+    // console.log(d);
+
+// 4) Inch kartatpi ev inchu
+    // let str = 'some string';
+    // let str4 = str[4]; // " "
+    // str4 += ''; // " "
+    // let sum = 10 + str4; "10 "
+    // console.log(sum);
+
+// // 5) Inch kartatpi ev inchu
+//     let num = 124.5;
+//     let someStr = 'some';
+//     let line = num + someStr; // "124.5some"
+//     let parsedLine = parseInt(line); // 124
+//     let something = parsedLine + 1; // 125
+//     const result = something >= ''; //true
+//     console.log(result); // true
+//     console.log("" !== false); // true
+
+// 6) Inch kartatpi ev inchu
+    // let bool = true;
+    // let notBool = 'string';
+    // let val = +bool + 1; // 2
+    // let newVal = val + notBool; // "2string"
+    // let len = newVal.length; // 7
+    // let newLen = len + +'5.12345'; // 12.12345
+    // const res = newLen.toFixed(1); // 12.1
+    // console.log(res);
+
+// 7) Inch kartatpi ev inchu
+    // let lastString = 'string';
+    // let whatOutput = lastString.indexOf('t'); // 1
+    // let getSymbol = lastString[lastString.length - whatOutput];
+    // let isEqual = getSymbol === 'g';
+    // console.log(isEqual);
+
+// 8) Inch kartatpi ev inchu
+    // let age = 44;
+    // let newAge = age + 1;
+    // let stringAge = age.toString(); // '44'
+    // let newStringAge = +stringAge; // 44
+    // let isEqual2 = newAge === newStringAge;
+    // console.log(isEqual2);
+
+// 9) Inch kartatpi ev inchu
+    // let randomNumber = Math.random();
+    // let resultNum = Math.round(randomNumber);
+    // console.log(resultNum);
+
+// 10) result popoxakanin veragreq anun@ ete ayn erkar e 4 ic hakarak depqum veragreq 'name is long' ev tpeq result@
+    // let name = 'Jhon';
+    // let result = null;
+
+// ---ANSWER---
+// if (name.length > 4) {
+//     result = name;
 // } else {
-//     console.log("i don't know");
+//     result = 'name is long'
 // }
-//    Answer 2)
-//    let x =5;
-//    switch(x) {
-//        case x >7:
-//            console.log('big');
-//            break;
-//        case x >=5:
-//             console.log('equal');
-//             break;
-//        default:
-//            console.log("i don't know");
-//    }
+// console.log(result);
+// OR
+// result = name.length > 4 ? name : 'name is long';
+// console.log(result)
 
-// 3) Greq nuyn cod@ if else-i mijocov
-// let y = 'some';
-// switch (y) {
-//     case 'some text':
-//         console.log('some text');
-//         break;
-//     case 'some':
-//         console.log('some');
-//         break;
-//     default:
-//         console.log('no text')
+// 11) haytarareq 3 popoxakan anun azganun tariq; ev greq script vory tpum e 'done' ete bolor popoxakannern unen arjeq;
+//---ANSWER---
+// let name = 'Jhon';
+// let surname = 'Doe';
+// let age = 30;
+// if(name && surname && age) {
+//     console.log('done')
 // }
-// // Answer 3)
-//     let y="some";
-//     y==="some text" ? console.log("some text"): y==="some" ? console.log("some") : console.log("no text")
-        //   OR  
-             // let y='some';
-                    // if (y==='some text'){
-                    //     console.log('some text')
-                    // } else { if (y==='some'){
-                    //         console.log('some')
-                    // } else {console.log('no text')
-                    // }
-                    // }
-            //   ______________________________________________
+// or
+// if (name && surname && age) console.log('done')
+//or
+// name && surname && age && console.log('done');
 
-// 4) Inch ktpi ev inchu?
-// let num = 0;
-// num++ ? console.log(num) : console.log('no-num');
-// if (num) {
-//     console.log(num && 5)
+// 12) result popoxakanin veragreq anun@ ete ayn ka hakarak depqum azganun@;
+    //   let username = 'John';
+    //   let surname = 'best';
+    //   let result;
+
+// ---ANSWER---
+// if(username) {
+//     result = username
+// }else if(surname) {
+//     result = surname
 // }
+//or
+// result = username ? username : surname;
+//or
+// result = username || surname;
 
-// Answer 4)
-// կարտատպի առաջին տողում no-num, երկրորդ տողում ՝ 5
-// քանզի առաջին տողում պայմանի մեջ PostFixValue- ին գումարվում է 1 աջից, 
-// այսինքն արժեքը կմնա 0 նույն տողում, հաջորդ տողում արդեն 
-// num-ը հավասար է 1 այսինքն (true), 
-// պայմանից ելնելով, այսինքն և-ից կտպվի վերջին ճիշտ արժեքը՝ այսինքն 5
+// 13) greq script vor kstugi ete user@ uni anun apa ayd anvann avelacni 777 ev tpi ayn;
+//    ete anun chuni ev tariq@ poqr e 18-ic tox stugi ete 16 kam 17 tarekan e apa tox tpi 'soon'
+//    mnacac bolor depqerum tox tpi useri tariq@ bayc string typov;
+//    let userName = 'Jhon';
+//    let userAge = 17;
 
-// 5) Inch ktpi ev inchu?
-// let count = 0;
-// if(count.toString()) {
-//     count++;
-//     if(count > 0) {
-//         count++;
-//         if(!count) {
-//             console.log('no-count')
-//         }else {
-//             console.log(--count)
-//         }
-//     }
+// ---ANSWER---
+// if (userName) {
+//     userName += 777;
+//     console.log(userName)
+// }else if(userAge < 18) {
+//     userAge === 16 || userAge === 17 ? console.log('soon') : null;
+// }else {
+//     console.log(userAge.toString())
 // }
 
-// Answer 5)
-// Առաջին պայմանով մեր փոփոխականը թիվը վերածում ենք տեքստի 
-// և տպում ենք նրա արժեքին + 1 ԱՋ ից, այսինքն վերածում ենք նորից 
-// թվի մաթեմատիկական գործողությունով
-// հաջորդ տողում համեմատում ենք արդեն արժեքը փոփոխված փոփոխականին 
-// այսինքն 1ը 0ի հետ "1>0" և տպում ենք 1 ++ ԱՋ ից, 
-// հանդիպելով ճիշտ պայմանի կտպվի 1 անտեսելով մնացաց պայմանները
+// 14) greq script vor@ kstugi ete popoxakan@ string e ev datark che apa kvercni stringi meji tiv@
+//    ev kstugi ete zuyg e ktpi;
+// let numStr = '124String';
+// if (typeof numStr === 'string' && numStr) {
+//     let num = parseInt(numStr);
+//     num % 2 === 0 ? console.log(num) : null;
+// }
+
+// 15) Inch ktpi ev inchu
+// let x = '';
+// if(x) {
+//     x = 6;
+//     console.log(x)
+// } else {
+//     x += true;
+//     console.log(x)
+// }
+
+
+// 16) Inch ktpi ev inchu
+// let y = 10 <= '11' || null && 'string' > 5
+// if (!y) {
+//     console.log(true || false)
+// } else {
+//     console.log(!y)
+// }
+
+// 17) Inch ktpi ev inchu
+// const x = (null || 'some text') && ('boolean' && 'null');
+// x === 'null' ? console.log('result 1') : console.log('result 2');
+// let y = ('boolean' || undefined) || ('' && x);
+// console.log(y);
