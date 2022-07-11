@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bangers', cursive;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(151, 93, 93) 5%, rgba(100,165,180,1) 55%,rgba(5,49,73,1) 98%);
+
+}
+
+.title {
+    color: #ff3860b9;
+    animation:backInDown 2.5s ease-out;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3%;
+}
+
+.display {
+    color: rgb(21, 78, 129);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation:flash 2.5s infinite;
+
+    
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 300px;
+   
+}
+
+.box{
+    border: 3px solid rgb(21, 78, 129);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #ff3860b9;
+}
+
+.playerO {
+    color: rgb(21, 78, 129);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.controls button {
+    color: white;
+    padding: 15px;
+    border-radius: 16px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+   
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+    animation:backInLeft 2.5s ease-out;
+}
+
