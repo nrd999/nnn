@@ -1,10 +1,66 @@
-// 1) Greq function vor@ vorpes argument kstana array ev ktpi tvyal arrayum exac bolor tver@;(arrayi mej karan tveric baci urish elementner el linen)
+// ogtvelov mer studentneri htmlic ev arrayic
+// click aneluc nshvac studenti object@ qceq localstorage
+// 2rd angam click aneluc jnjeq storagic
 
-// 2) Greq function vor@ kstana 2 array argument ev ktpi aveli erkar arrayi meji bolor string elementnery;
-
-// 3) Greq function vor@ kstana erku array voric mek@ datark e, ev myus arrayi meji elementery klcni datark arrayi mej u kveradarcni ayd array@
-
-// 4) Greq function vor@ stanum a 2 argument mek@ array myus@ number type-i; ev stugum a ete arrayum ka 2rd argumentov stacvac tiv@
-// apa veradarcnum a ayd tiv@  hakarak depqum veradarcnum a false
-
-// 5) Greq function vor kstana 4 argument bolor@ number ev kveradarcni array vori mej klinen ayd 4 numberneri krknapatiknern
+// const students = [
+//     {
+//         id: 1,
+//         name: 'Mko',
+//         gender: false,
+//         age: 20
+//     },
+//     {
+//         id: 2,
+//         name: 'Anna',
+//         gender: true,
+//         age: 21
+//     },
+//     {
+//         id: 3,
+//         name: 'Hrach',
+//         gender: false,
+//         age: 22
+//     },
+//     {
+//         id: 4,
+//         name: 'Suren',
+//         gender: false,
+//         age: 23
+//     },
+//     {
+//         id: 9,
+//         name: 'Alex',
+//         gender: false,
+//         age: 20
+//     },
+//     {
+//         id: 6,
+//         name: 'David',
+//         gender: false,
+//         age: 21
+//     },
+//     {
+//         id: 7,
+//         name: 'Sveta',
+//         gender: true,
+//         age: 22
+//     },
+//     {
+//         id: 8,
+//         name: 'Gor',
+//         gender: false,
+//         age: 16
+//     },
+//     {
+//         id: 10,
+//         name: 'Mariam',
+//         gender: true,
+//         age: 22
+//     },
+//     {
+//         id: 5,
+//         name: 'Nik',
+//         gender: false,
+//         age: 23
+//     },
+// ];
